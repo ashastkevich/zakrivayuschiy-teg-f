@@ -50,14 +50,6 @@
   text-transform: lowercase;
 }
 
-.icon {
-  width: 100px;
-}
-
-.icon-big {
-  width: 200px;
-}
-
 .content {
   margin-block-start: 100px;
   display: flex;
@@ -197,7 +189,6 @@
 }
 
 .card__icon-button {
-  border: none;
   background-color: transparent;
   height: 38px;
   border: 2px solid transparent;
