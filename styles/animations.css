@@ -47,19 +47,23 @@
   transition: fill 0.3s ease 0.05s;
 }
 
-.heart:not(:hover) .main-body {
+.heart .main-body {
   fill: transparent;
   transition: fill 0.3s ease;
 }
 
-.heart:not(:hover) .core {
+.heart .core {
   fill: transparent;
-  transition: fill 0.3s ease 0.05s;
+  transition: fill 0.3s ease 0.03s;
+} 
+
+.heart .contour {
+  transition: fill 0.1s linear;
 }
 
 .heart:active .core {
   fill: var(--body-color);
-  transition: fill 0.3s ease;
+  transition: fill 0.3s linear;
 }
 
 .heart:active .main-body {
